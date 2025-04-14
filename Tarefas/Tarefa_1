@@ -1,0 +1,64 @@
+Vitor Patrick dos Reis Revoredo 
+CJ: 3029352
+          
+          Sistema Gerenciador de Banco de Dados MySQL
+  
+  O MySQL é um dos sistemas gerenciadores de banco de dados relacionais (SGBD) mais populares
+e amplamente utilizados no mundo. Desenvolvido originalmente pela empresa sueca MySQL AB,
+atualmente é mantido pela Oracle Corporation. Seu código aberto, desempenho confiável e
+compatibilidade com diversas linguagens de programação tornam o MySQL uma escolha frequente
+em projetos de pequeno a grande porte.
+          
+      Onde o MySQL é Utilizado
+
+  O MySQL é usado em várias áreas, principalmente em sistemas web, e-commerce, aplicativos de
+gestão e sistemas corporativos. Plataformas como WordPress, Joomla e Magento utilizam MySQL
+como base de dados. Empresas como Facebook, Twitter e YouTube também o utilizam, seja em
+sua forma pura ou como base para soluções personalizadas.
+Entre os principais cenários de uso, destacam-se:
+  - Desenvolvimento de sites e blogs;
+  - Aplicações corporativas de ERP e CRM;
+  - Sistemas acadêmicos;
+  - Plataformas de comércio eletrônico;
+  - Sistemas de controle de estoque, vendas, e atendimento.
+
+      Exemplos de Consultas no MySQL
+
+1. Criação de tabela:
+CREATE TABLE clientes (
+Vitor Patrick dos Reis Revoredo - CJ: 3029352
+id INT AUTO_INCREMENT PRIMARY KEY,
+nome VARCHAR(100),
+email VARCHAR(100),
+cidade VARCHAR(50)
+);
+
+2. Inserção de dados:
+INSERT INTO clientes (nome, email, cidade)
+VALUES ('João Silva', 'joao@email.com', 'São Paulo');
+
+3. Consulta de dados:
+SELECT * FROM clientes;
+
+4. Atualização de dados:
+UPDATE clientes
+SET cidade = 'Rio de Janeiro'
+WHERE nome = 'João Silva';
+
+5. Exclusão de dados:
+DELETE FROM clientes
+WHERE id = 1;
+
+      Conclusão
+
+  O MySQL continua sendo uma das soluções mais utilizadas para gerenciamento de dados em
+aplicações modernas. Sua simplicidade, aliada à robustez e flexibilidade, garante uma boa
+performance mesmo em ambientes com alta demanda. A ampla comunidade e a documentação
+bem estruturada também são fatores que contribuem para sua adoção global.
+
+      Referências
+
+- Oracle. MySQL Documentation. Disponível em: https://dev.mysql.com/doc/
+- SILBERSCHATZ, Abraham; KORTH, Henry F.; SUDARSHAN, S. Sistemas de Banco de Dados.
+6ª ed. São Paulo: Pearson, 2013.
+- MySQL Brasil. Documentação e tutoriais. Disponível em: https://www.mysql.com/
